@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tayllington Cesar - Personal Trainer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+      background: #fff;
+    }
+
+    .hero img {
+      max-width: 250px;
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.4em;
+      margin: 0;
+      color: #111;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #e63946;
+    }
+
+    .services, .testimonials {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      flex: 1 1 280px;
+    }
+
+    .contact {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .contact a {
+      color: #f77;
+      text-decoration: none;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #e63946;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #f09433;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media(max-width: 768px){
+      .hero h1 {
+        font-size: 1.8em;
+      }
+
+      .services, .testimonials {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tayllington Cesar</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <img src="tayllington-topo.jpg" alt="Tayllington Cesar no treino">
+  <h1>Transforme seu corpo com Tayllington Cesar</h1>
+</div>
+
+<section id="sobre">
+  <h2>Sobre</h2>
+  <p>Com mais de 10 anos de experiência, Tayllington Cesar é personal trainer certificado, especialista em transformação corporal, emagrecimento e qualidade de vida. Seu método une treino, motivação e disciplina para resultados reais e duradouros.</p>
+</section>
+
+<section id="servicos">
+  <h2>Serviços</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Treinamento Funcional</h3>
+      <p>Melhore sua mobilidade, força e condicionamento físico com treinos personalizados.</p>
+    </div>
+    <div class="card">
+      <h3>Musculação Personalizada</h3>
+      <p>Programas de hipertrofia ajustados ao seu biotipo e objetivos.</p>
+    </div>
+    <div class="card">
+      <h3>Consultoria Online</h3>
+      <p>Treine onde quiser com acompanhamento profissional remoto.</p>
+    </div>
+  </div>
+</section>
+
+<section id="depoimentos">
+  <h2>Depoimentos</h2>
+  <div class="testimonials">
+    <div class="card">
+      <p>"Treinar com o Tayllington mudou minha vida. Perdi 12kg em 3 meses e ganhei autoestima!"<br><strong>- Ana Souza</strong></p>
+    </div>
+    <div class="card">
+      <p>"Muito mais que um personal, é um mentor. Resultados reais e duradouros."<br><strong>- João Lima</strong></p>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="contact">
+  <h2>Contato</h2>
+  <p>Agende uma avaliação gratuita agora mesmo.</p>
+  <p>WhatsApp: <a href="https://wa.me/554284337352" target="_blank">+55 42 8433-7352</a></p>
+  <a href="https://wa.me/554284337352" class="button" target="_blank">Fale comigo</a>
+
+  <p style="margin-top: 30px;">
+    Siga nas redes:<br>
+    <a href="https://www.instagram.com/personaltonmatias" target="_blank">Instagram</a> | 
+    <a href="https://facebook.com/tailington" target="_blank" style="color: #1877f2;">Facebook</a>
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Tayllington Cesar - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
